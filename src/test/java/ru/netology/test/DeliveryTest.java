@@ -33,7 +33,6 @@ class DeliveryTest {
         var secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
 
         // Тестируем опцию "Запланировать встречу"
-        // Находим на странице элемент с классом "form"
         // Находим элемент "Город", устанавливаем значение для дочернего input
         $("[data-test-id=city] input").setValue(validUser.getCity());
         // Находим элемент "Дата", устанавливаем значение для дочернего input
